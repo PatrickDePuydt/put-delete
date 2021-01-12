@@ -39,4 +39,11 @@ router.get('/:idx', (req, res) => { //express show route for dinosaurs (lists on
   
 });
 
+// router.post('/', (req, res) => {
+//   dinoData.push(req,res);
+//   let histJson = JSON.stringify(dinoData);
+//   fs.writeFileSync('./dino.json', histJson);
+//   res.redirect('/');
+// });
+
 module.exports = router;
