@@ -1,0 +1,26 @@
+{
+  "name": "get-post",
+  "version": "1.0.0",
+  "description": "https://gawdiseattle.gitbook.io/wdi/05-node-express/00readme-1/00readme ---",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickDePuydt/get-post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickDePuydt/get-post/issues"
+  },
+  "homepage": "https://github.com/PatrickDePuydt/get-post#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}
